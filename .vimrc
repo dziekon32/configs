@@ -1,9 +1,9 @@
-source ~/.vim/search_plug.vim
-source ~/.vim/bindings.vim
-source ~/.vim/plug_conf.vim
-source ~/.vim/set.vim
-source ~/.vim/fast_comment.vim
-source ~/.vim/playground.vim
+source ~/.vim/configs/search_plug.vim 
+source ~/.vim/configs/bindings.vim
+source ~/.vim/configs/plug_conf.vim
+source ~/.vim/configs/set.vim
+source ~/.vim/configs/fast_comment.vim
+source ~/.vim/configs/playground.vim
 
 colorscheme gruvbox
 
