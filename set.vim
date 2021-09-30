@@ -1,1 +1,19 @@
-../set.vim
+set guicursor=
+set hidden
+set ignorecase
+set incsearch
+set nobackup
+set noerrorbells
+set noshowmode
+set noswapfile
+set nu
+set relativenumber
+set scrolloff=8
+set shiftwidth=4
+set smartcase
+set smartindent
+set tabstop=4 softtabstop=4
+set termguicolors
+set undodir=~/.vim/undodir
+set undofile
+set wrap
