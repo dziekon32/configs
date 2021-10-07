@@ -9,6 +9,10 @@ nnoremap <leader>b <CMD>Telescope buffers<CR>
 
 nnoremap <C-t> <CMD>NERDTreeToggle<CR>
 
+" Fast copy, paste to general buffor from/to vim
+noremap <leader>y "+y
+noremap <leader>p "+p
+
 " Fast Function Creation
 noremap <silent> <S-m> :call CreateModules()<CR>
 

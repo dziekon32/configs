@@ -1,3 +1,5 @@
+set cmdheight=2
+set encoding=utf-8
 set guicursor=
 set hidden
 set ignorecase
@@ -6,14 +8,22 @@ set nobackup
 set noerrorbells
 set noshowmode
 set noswapfile
+set nowritebackup
 set nu
+set path+=**
 set relativenumber
 set scrolloff=8
 set shiftwidth=4
+set shortmess+=c
+set signcolumn=number
 set smartcase
 set smartindent
 set tabstop=4 softtabstop=4
 set termguicolors
 set undodir=~/.vim/undodir
 set undofile
+set updatetime=300
 set wrap
+
+set completeopt=menu,menuone,noselect
+set wildmenu
